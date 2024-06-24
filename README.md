@@ -43,6 +43,8 @@ render = mycontr.plot_contributions(merged_contributions, render_type="notebook"
 render.render_notebook()
 render.render("my_contributions.html")
 ```
+![fig1](./figs/screenshot1.png)
+
 
 ## Core Files Description
 
@@ -50,6 +52,11 @@ render.render("my_contributions.html")
 - **`giteehubContri.py`**: The main script that contains the logic for fetching, merging, and plotting contributions from GitHub and Gitee.
 - **`my_contributions.html`**: The output HTML file that visualizes the merged contributions.
 - **`plot_contribution.ipynb`**: A Jupyter Notebook that provides an interactive environment to run and visualize the contribution analysis.
+
+
+## Acknowledgements
+
+Thanks for github api from https://github.com/grubersjoe/github-contributions-api
 
 
 ## License
