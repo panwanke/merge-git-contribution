@@ -57,7 +57,7 @@ render.render("my_contributions.html")
 ## Acknowledgements
 
 Thanks for github api from https://github.com/grubersjoe/github-contributions-api
-
+Thanks for calendar heatmap visualization from [pyecharts](https://gallery.pyecharts.org/#/Calendar/calendar_heatmap)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
