@@ -160,7 +160,7 @@ def plot_contributions(contributions, username=None, render_type = None):
                 pos_top="120",
                 pos_left="30",
                 pos_right="30",
-                range_=[f"{start_date.year}-{start_date.month}", f"{end_date.year}-{end_date.month}"],
+                range_=[f"{start_date.year}-{start_date.month}", f"{end_date.year}-{end_date.month+1}"],
                 daylabel_opts=opts.CalendarDayLabelOpts(name_map="cn"),
                 monthlabel_opts=opts.CalendarMonthLabelOpts(name_map="cn"),
             ),
