@@ -45,7 +45,6 @@ render.render("my_contributions.html")
 ```
 ![fig1](./figs/screenshot1.png)
 
-
 ## Core Files Description
 
 
