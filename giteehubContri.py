@@ -5,6 +5,9 @@ from collections import defaultdict
 from pyecharts import options as opts
 from pyecharts.charts import Calendar
 from pyecharts.commons.utils import JsCode
+from pyecharts.globals import CurrentConfig
+
+CurrentConfig.ONLINE_HOST = ''
 
 class myContribution:
     def __init__(self, user_name=None, github_username=None, gitee_username=None, start_date=None):
